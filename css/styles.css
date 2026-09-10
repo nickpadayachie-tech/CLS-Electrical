@@ -626,7 +626,7 @@ table.data td b { color: var(--ink); }
   .quote-form { padding: 28px 20px; }
   .info-card { padding: 20px; }
 
-  .btn { padding: 13px 24px; font-size: 0.9rem; }
+  .btn { padding: 13px 24px; font-size: 0.9rem; white-space: normal; max-width: 100%; }
   .btn--primary { box-shadow: 0 10px 24px -12px rgba(47, 107, 255, 0.6); }
 
   .quote-band h2, .page-cta h2, .cta-band h2 { font-size: clamp(1.4rem, 5vw, 1.8rem); }
