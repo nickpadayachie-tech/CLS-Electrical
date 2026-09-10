@@ -348,6 +348,7 @@ b, strong { color: var(--ink); }
 
 /* ---------- Feature split (alternating) ---------- */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.split > :only-child { grid-column: 1 / -1; }
 .split > div .eyebrow { margin-bottom: 16px; }
 .split h2 { margin-bottom: 22px; }
 .split p { margin-bottom: 18px; }
