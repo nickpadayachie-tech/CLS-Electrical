@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0c1530"/>
+<stop offset="1" stop-color="#1a2b52"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.72" cy="0.32" r="0.75">
+<stop offset="0" stop-color="#2f6bff" stop-opacity="0.40"/>
+<stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<rect width="1200" height="750" fill="url(#glow)"/>
+<g stroke="#4d84ff" stroke-opacity="0.13" fill="none">
+<line x1="-100" y1="660" x2="1300" y2="200"/>
+<line x1="-100" y1="720" x2="1300" y2="330"/>
+<line x1="-100" y1="780" x2="1300" y2="460"/>
+</g>
+<g fill="none" stroke="#4d84ff" stroke-opacity="0.7" stroke-width="2">
+<rect x="180" y="150" width="840" height="520" rx="16"/>
+</g>
+<g stroke="#4d84ff" stroke-opacity="0.45" stroke-width="1.5">
+<line x1="180" y1="300" x2="1020" y2="300"/>
+<line x1="180" y1="450" x2="1020" y2="450"/>
+<line x1="420" y1="150" x2="420" y2="670"/>
+<line x1="660" y1="150" x2="660" y2="670"/>
+<line x1="880" y1="150" x2="880" y2="670"/>
+</g>
+<g fill="#2f6bff" fill-opacity="0.5">
+<circle cx="300" cy="220" r="6"/><circle cx="540" cy="220" r="6"/><circle cx="780" cy="220" r="6"/>
+<circle cx="300" cy="360" r="6"/><circle cx="540" cy="360" r="6"/><circle cx="780" cy="360" r="6"/>
+<circle cx="300" cy="520" r="6"/><circle cx="540" cy="520" r="6"/><circle cx="780" cy="520" r="6"/>
+</g>
+<g stroke="#4d84ff" stroke-width="3" fill="none">
+<path d="M600 150 L600 120 M540 200 L510 160 M660 200 L690 160"/>
+</g>
+<text x="600" y="700" fill="#cdd7ff" font-family="sans-serif" font-size="26" text-anchor="middle" font-weight="700">ELECTRICAL DESIGN</text>
+</svg>
