@@ -219,7 +219,7 @@ b, strong { color: var(--ink); }
   align-items: center;
   color: #fff;
   overflow: hidden;
-  background: var(--blue-ink) url("../images/hero-poster.jpg") no-repeat center / cover;
+  background: #060d22 url("../images/hero-poster.jpg") no-repeat center / cover;
 }
 .hero::before {
   content: "";
