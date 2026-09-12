@@ -180,7 +180,7 @@ b, strong { color: var(--ink); }
 .brand .brand-sub { font-size: 0.66rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
 .brand-text { display: flex; flex-direction: column; justify-content: center; line-height: 1; }
 
-.nav-links { display: flex; align-items: center; gap: 6px; }
+.nav-links { display: flex; align-items: center; gap: 6px; list-style: none; }
 .nav-links > li > a {
   display: block;
   font-size: 0.9rem;
