@@ -317,6 +317,7 @@ b, strong { color: var(--ink); }
   background: rgba(47, 107, 255, 0.9); box-shadow: 0 10px 24px -8px rgba(47,107,255,0.8);
 }
 .pc-status { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #bfe0ff; background: rgba(9,14,26,0.55); padding: 7px 12px; border-radius: 100px; backdrop-filter: blur(4px); }
+.pc-status--done { color: #dcffe6; background: rgba(18, 148, 66, 0.82); }
 .pc-body { padding: 24px; }
 .pc-body .pc-cat { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue-bright); margin-bottom: 8px; }
 .pc-body h3 { color: #fff; font-size: 1.5rem; }
