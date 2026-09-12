@@ -297,6 +297,7 @@ b, strong { color: var(--ink); }
 
 /* ---------- Project value cards ---------- */
 .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.projects-grid--similar { grid-template-columns: repeat(2, 1fr); max-width: 900px; margin: 0 auto; }
 .project-card {
   position: relative; border-radius: var(--radius); overflow: hidden;
   min-height: 420px; display: flex; flex-direction: column; justify-content: flex-end;
